@@ -230,11 +230,10 @@
         }
 
         .cta-buttons {
-            margin-top: 10px;
-            display: flex;
-           
-            justify-content: center;
-            flex-wrap: wrap;
+            display: inline-flex;      /* keep text + icon on same line */
+            align-items: center;       /* vertically center */
+            gap: 6px;                  /* space between text and icon */
+            white-space: nowrap;       /* prevent wrapping */
         }
 
         /* Mobile Menu Styles */
@@ -483,8 +482,8 @@
             <p class="hero-description pop-up">We turn ideas into reality with clean and interactive websites!</p>
            
             <div class="cta-buttons">
-                <a href="https://mubashir-03.github.io/orderwebsite/" class="btn btn-outline fade-in" style="animation-delay: 4.5s;" target="_blank">Order Your Website</a>
-                <a href="https://mubashir-03.github.io/PortfolioMubashir/" class="btn fade-in" style="animation-delay: 4s;" target="_blank">Visit Portfolio</a>
+                <a href="https://mubashir-03.github.io/orderwebsite/" class="btn btn-outline fade-in" style="animation-delay: 4.5s;" target="_blank">Order Your Website  <i class="fas fa-arrow-right"></i></a>
+                <a href="https://mubashir-03.github.io/PortfolioMubashir/" class="btn fade-in" style="animation-delay: 4s;" target="_blank">Visit Portfolio  <i class="fas fa-briefcase"></i></a>
             </div>
         </div>
        
